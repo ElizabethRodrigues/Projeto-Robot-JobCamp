@@ -1,0 +1,107 @@
+==============================================================================
+20211118 19:32:44.005 - INFO - + START SUITE: Trabalhe Conosco [ ]
+==============================================================================
+20211118 19:32:44.006 - INFO - +- START SETUP: SeleniumLibrary.Open Browser [ about:blank | chrome ]
+20211118 19:32:44.007 - INFO - Opening browser 'chrome' to base url 'about:blank'.
+20211118 19:32:47.299 - DEBUG - Opened browser with session id b53620c8e9ccd29db5772494f0180c98.
+20211118 19:32:47.300 - INFO - +- END SETUP: SeleniumLibrary.Open Browser (3294)
+------------------------------------------------------------------------------
+20211118 19:32:47.301 - INFO - +- START TEST: Test [ ]
+------------------------------------------------------------------------------
+20211118 19:32:47.304 - INFO - +-- START KEYWORD: SeleniumLibrary.Go To [ ${url} ]
+20211118 19:32:47.305 - INFO - Opening url 'https://www.primecontrol.com.br/trabalhe-conosco/'
+20211118 19:32:53.283 - INFO - +-- END KEYWORD: SeleniumLibrary.Go To (5979)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:53.283 - INFO - +-- START KEYWORD: SeleniumLibrary.Click Element [ ${trabalheConosco.btnAccept} ]
+20211118 19:32:53.286 - INFO - Clicking element '//*[@id="hs-eu-confirmation-button"]'.
+20211118 19:32:53.407 - INFO - +-- END KEYWORD: SeleniumLibrary.Click Element (121)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:53.408 - INFO - +-- START KEYWORD: SeleniumLibrary.Click Element [ ${trabalheConosco.btnCadastrarCurriculo} ]
+20211118 19:32:53.409 - INFO - Clicking element '//*[@id="king-385018"]/div/div[2]/div/div[2]/a'.
+20211118 19:32:53.577 - INFO - +-- END KEYWORD: SeleniumLibrary.Click Element (167)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:53.577 - INFO - +-- START KEYWORD: SeleniumLibrary.Switch Window [ New ]
+20211118 19:32:53.605 - INFO - +-- END KEYWORD: SeleniumLibrary.Switch Window (26)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:53.606 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.name} | ${preencheCampos.name} ]
+20211118 19:32:53.610 - INFO - Typing text 'Elizabeth Rodrigues' into text field '//*[@id="name"]'.
+20211118 19:32:55.957 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (2351)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:55.958 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.position} | ${preencheCampos.position} ]
+20211118 19:32:55.961 - INFO - Typing text 'Cargo Automaçao' into text field '//*[@id="headline"]'.
+20211118 19:32:56.163 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (204)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:56.163 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.salary} | ${preencheCampos.salary} ]
+20211118 19:32:56.166 - INFO - Typing text '9.000,00' into text field '//*[@id="salary"]'.
+20211118 19:32:56.379 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (216)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:56.380 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.email} | ${preencheCampos.email} ]
+20211118 19:32:56.383 - INFO - Typing text 'elizabeth@gmail.com' into text field '//*[@id="email"]'.
+20211118 19:32:56.607 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (226)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:56.608 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.phone1} | ${preencheCampos.phone1} ]
+20211118 19:32:56.611 - INFO - Typing text '11 9 9999-9876' into text field '//*[@id="phone-0"]'.
+20211118 19:32:56.802 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (192)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:56.803 - INFO - +-- START KEYWORD: SeleniumLibrary.Click Element [ ${trabalheConosco.btnAddTelefone} ]
+20211118 19:32:56.805 - INFO - Clicking element '//*[@id="__layout"]/div/div/section/div/div/form/fieldset[2]/div[2]/div[2]/div[2]/button'.
+20211118 19:32:56.909 - INFO - +-- END KEYWORD: SeleniumLibrary.Click Element (106)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:56.910 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.phone2} | ${preencheCampos.phone2} ]
+20211118 19:32:56.913 - INFO - Typing text 'testetelefone' into text field '//*[@id="phone-1"]'.
+20211118 19:32:57.095 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (185)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:57.096 - INFO - +-- START KEYWORD: SeleniumLibrary.Select From List By Value [ ${trabalheConosco.cmbCountry} | ${preencheCampos.cmbCountry} ]
+20211118 19:32:57.097 - INFO - Selecting options from selection list '//*[@id="country"]' by value BR.
+20211118 19:32:57.238 - INFO - +-- END KEYWORD: SeleniumLibrary.Select From List By Value (141)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:57.245 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.state} | ${preencheCampos.state} ]
+20211118 19:32:57.248 - INFO - Typing text 'PE' into text field '//*[@id="region"]'.
+20211118 19:32:57.432 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (194)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:57.433 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.city} | ${preencheCampos.city} ]
+20211118 19:32:57.435 - INFO - Typing text 'Cidade Automação' into text field '//*[@id="city"]'.
+20211118 19:32:57.612 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (168)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:57.613 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.neighborhood} | ${preencheCampos.neighborhood} ]
+20211118 19:32:57.616 - INFO - Typing text 'bairro Automação' into text field '//*[@id="neighborhood"]'.
+20211118 19:32:57.794 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (180)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:57.794 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.address} | ${preencheCampos.address} ]
+20211118 19:32:57.796 - INFO - Typing text 'Rua XPTO' into text field '//*[@id="address"]'.
+20211118 19:32:57.934 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (140)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:57.934 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.zipCode} | ${preencheCampos.zipCode} ]
+20211118 19:32:57.936 - INFO - Typing text '53098765' into text field '//*[@id="zipcode"]'.
+20211118 19:32:58.092 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (157)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:58.093 - INFO - +-- START KEYWORD: SeleniumLibrary.Input Text [ ${trabalheConosco.summary} | ${preencheCampos.summary} ]
+20211118 19:32:58.094 - INFO - Typing text 'curriculo Automação Bootcamp qa.coders' into text field '//*[@id="summary"]'.
+20211118 19:32:58.268 - INFO - +-- END KEYWORD: SeleniumLibrary.Input Text (174)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:58.269 - INFO - +-- START KEYWORD: SeleniumLibrary.Choose File [ ${trabalheConosco.resumeFile} | ${EXECDIR}/Elizabeth_Rodrigues_CV.pdf ]
+20211118 19:32:58.270 - INFO - Sending C:\Robot\Elizabeth_Rodrigues_CV.pdf to browser.
+20211118 19:32:58.330 - INFO - +-- END KEYWORD: SeleniumLibrary.Choose File (61)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:58.331 - INFO - +-- START KEYWORD: SeleniumLibrary.Wait Until Page Contains [ Elizabeth_Rodrigues_CV.pdf | 30 ]
+20211118 19:32:59.005 - INFO - +-- END KEYWORD: SeleniumLibrary.Wait Until Page Contains (674)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:59.005 - INFO - +-- START KEYWORD: SeleniumLibrary.Scroll Element Into View [ ${trabalheConosco.btnFinish} ]
+20211118 19:32:59.019 - DEBUG - Workaround for Selenium 3 bug.
+20211118 19:32:59.300 - INFO - +-- END KEYWORD: SeleniumLibrary.Scroll Element Into View (294)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:59.300 - INFO - +-- START KEYWORD: SeleniumLibrary.Click Element [ ${trabalheConosco.btnFinish} ]
+20211118 19:32:59.301 - INFO - Clicking element '//*[@id="__layout"]/div/div/section/div/div/form/button/span'.
+20211118 19:32:59.356 - INFO - +-- END KEYWORD: SeleniumLibrary.Click Element (56)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20211118 19:32:59.357 - INFO - +-- START KEYWORD: SeleniumLibrary.Wait Until Element Contains [ ${trabalheConosco.sucesso} | ${preencheCampos.sucesso} | 30 ]
+20211118 19:33:00.047 - INFO - +-- END KEYWORD: SeleniumLibrary.Wait Until Element Contains (691)
+------------------------------------------------------------------------------
+20211118 19:33:00.049 - INFO - +- END TEST: Test (12747)
+------------------------------------------------------------------------------
+20211118 19:33:00.050 - INFO - +- START TEARDOWN: SeleniumLibrary.Close Browser [ ]
+20211118 19:33:00.051 - DEBUG - Closing browser with session id b53620c8e9ccd29db5772494f0180c98.
+20211118 19:33:02.399 - INFO - +- END TEARDOWN: SeleniumLibrary.Close Browser (2349)
+==============================================================================
+20211118 19:33:02.401 - INFO - + END SUITE: Trabalhe Conosco (19013)
+==============================================================================
